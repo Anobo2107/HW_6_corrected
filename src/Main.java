@@ -47,13 +47,14 @@ public class Main {
 
             System.out.println("Тask9 ");
             int deposit = 29000;
-            int totalDeposit = 0;
-            int monthPercent= 1;
+            double totalDeposit = 0;
+            double monthPercent= 1;
             for (int i = 1; i <= 12; i++) {
             totalDeposit += deposit;
             totalDeposit += totalDeposit * monthPercent / 100;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + totalDeposit + " рублей");
+            System.out.printf ("Месяц %d, сумма накоплений равна %.2f рублей%n",i, totalDeposit);
             }
+
 
             System.out.println("Тask10");
             int n = 2;
