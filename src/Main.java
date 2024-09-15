@@ -1,51 +1,45 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Тask1");
+        //task1
         for (int i = 1; i <= 10; i++) {
             System.out.println("иттерация цикла" + i);
         }
 
-        System.out.println("Тask2");
+        //task2
         for (int i = 10; i >= 1; i--) {
             System.out.println(i);
         }
 
-        System.out.println("Тask3");
+        //task3
         for (int i = 0; i <= 17; i += 2) {
             System.out.println("иттерация цикла" + i);
         }
-
-        System.out.println("Тask4");
+        //task4;
         for (int i = 10; i <= 10 && i >= -10; i--) {
             System.out.println(i);
         }
-        System.out.println("Тask5");
+        //task5;
         for (int i = 1904; i <= 2096; i += 4) {
             System.out.println(i + "год является високосным");
         }
-
-        System.out.println("Тask6");
+        //task6;
         for (int i = 7; i <= 98; i += 7) {
             System.out.println(i);
         }
-
-        System.out.println("Тask7");
+        //task7;
         for (int i = 1; i <= 512; i *= 2) {
             System.out.println(i);
         }
-
         {
-            System.out.println("Тask8 ");
+            //task8;
             int monthlyDeposit = 29000;
             int totalSavings = 0;
             for (int month = 1; month <= 12; month++) {
                 totalSavings += monthlyDeposit;
                 System.out.println("Месяц " + month + ", сумма накоплений равна " + totalSavings + " рублей");
             }
-
-
-            System.out.println("Тask9 ");
+            // task9;
             int deposit = 29000;
             double totalDeposit = 0;
             double monthPercent = 1;
@@ -54,8 +48,6 @@ public class Main {
                 totalDeposit += totalDeposit * monthPercent / 100;
                 System.out.printf("Месяц %d, сумма накоплений равна %.2f рублей%n", i, totalDeposit);
             }
-
-
             System.out.println("Тask10");
             int n = 2;
             for (int k = 1; k <= 10; k++) {
